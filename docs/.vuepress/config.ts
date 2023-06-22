@@ -128,16 +128,23 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: '运维工具',
+            text: '虚拟化',
             items: [
-              { text: '远程工具', link: '/pages/f107e1/' },
-              { text: '文件传输', link: '/pages/cc57e9/' },
+              { text: 'Vagrant', link: '/pages/b83e57/' },
+              { text: 'Hyper V', link: '/pages/cc57e9/' },
+              { text: 'KVM', link: '/pages/cc57e9/' },
+              { text: 'Ovirt', link: '/pages/cc57e9/' },
+              { text: 'proxmox ve', link: '/pages/cc57e9/' },
+              
+
             ],
           },
           {
-            text: '应用服务',
+            text: '容器技术',
             items: [
-              { text: '《SSH》', link: '/pages/fa3d76/' },
+              { text: '《Kubernetes》', link: '/pages/f4bbc2/' },
+              { text: '《Docker》', link: '/pages/63f427/' },
+              { text: '《Docker-Compose》', link: '/pages/f4bbc2/' },
         
             ],
           },
@@ -172,10 +179,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: '运维工具',
+            text: '自动构架',
             items: [
-              { text: '远程工具', link: '/pages/f107e1/' },
-              { text: '文件传输', link: '/pages/cc57e9/' },
+              { text: 'GitLab', link: '/pages/a61298/' },
+              { text: '<Git笔记>', link: '/pages/8292d8/' },
+              { text: '<Git手册>', link: '/pages/635088/' },
             ],
           },
           {

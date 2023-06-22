@@ -15,11 +15,11 @@ features: # 可选的
 
   - title: 开发
     details: JavaScript、ES6、Vue框架等前端技术
-    link: /web/ # 可选
+    link: /develop/ # 可选
     imgUrl: /img/web.png # 可选
 
   - title: 运维
     details: html(5)/css(3)，前端页面相关技术
-    link: /ui/
+    link: /Operation_maintenance/
     imgUrl: /img/ui.png
 ---
